@@ -1,6 +1,6 @@
-FROM openresty/openresty:trusty
+FROM openresty/openresty:alpine
 
-COPY nginx.conf /etc/nginx/conf.d/main.conf
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 LABEL name="nginx"
 
